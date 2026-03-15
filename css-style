@@ -1,46 +1,51 @@
+/* style.css - Shared CSS for Hatikvah & Tano Fabricators */
+
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
 header {
-    background: #111;
-    color: white;
-    padding: 15px 0;
+  background-color: #004080; /* Dark blue header */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin: auto;
-    align-items: center;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #0066cc; /* Blue navigation bar */
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: inline-block;
 }
 
-.hero {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 80px 20px;
+nav a:hover {
+  background-color: #004080; /* Hover effect */
 }
 
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: orange;
-    color: white;
-    text-decoration: none;
+section {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #004080; /* Same as header */
+  color: white;
+  margin-top: 20px;
+}
     margin-top: 10px;
 }
 
