@@ -79,3 +79,20 @@ width:120px;
 display:block;
 margin:auto;
 }
+.header {
+    text-align: center;      /* centers everything inside header */
+    background-color: #1E90FF;  /* blue background */
+    padding: 30px;           /* adds space around content */
+}
+
+.header h1 {
+    color: white;            /* text color white so it shows on blue */
+    font-size: 48px;         /* make text big */
+    margin-bottom: 20px;     /* space between heading and logo */
+}
+
+.logo {
+    width: 200px;            /* size of the logo */
+    display: block;
+    margin: 0 auto;          /* centers the logo */
+}
