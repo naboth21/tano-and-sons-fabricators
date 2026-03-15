@@ -69,3 +69,8 @@ footer {
     text-align: center;
     padding: 15px;
 }
+.logo{
+width:120px;
+display:block;
+margin:auto;
+}
