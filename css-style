@@ -1,98 +1,69 @@
-/* style.css - Shared CSS for Hatikvah & Tano Fabricators */
-
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
+  font-family: Arial, sans-serif;
 }
 
+/* NAVBAR */
 header {
-  background-color: #004080; /* Dark blue header */
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-}
-
-nav {
   display: flex;
-  justify-content: center;
-  background-color: #0066cc; /* Blue navigation bar */
+  justify-content: space-between;
+  padding: 15px;
+  background: #0a2a66;
+  color: white;
 }
 
 nav a {
   color: white;
+  margin: 0 10px;
   text-decoration: none;
-  padding: 14px 20px;
-  display: inline-block;
 }
 
-nav a:hover {
-  background-color: #004080; /* Hover effect */
-}
-
-section {
-  padding: 20px;
-  max-width: 900px;
-  margin: auto;
-}
-
-footer {
+/* HERO */
+.hero {
   text-align: center;
-  padding: 15px;
-  background-color: #004080; /* Same as header */
+  padding: 100px 20px;
+  background: url('https://images.unsplash.com/photo-1581091215367-59ab6b5c3c64') no-repeat center/cover;
   color: white;
-  margin-top: 20px;
-}
-    margin-top: 10px;
 }
 
+.hero button {
+  padding: 10px 20px;
+  background: orange;
+  border: none;
+  cursor: pointer;
+}
+
+/* SECTIONS */
 section {
-    padding: 50px 20px;
-    text-align: center;
+  padding: 50px;
+  text-align: center;
 }
 
-.service-box {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+/* SERVICES */
+.services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.service-box div {
-    background: #f4f4f4;
-    padding: 20px;
-    width: 200px;
-    border-radius: 5px;
+.card {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
 }
 
-footer {
-    background: #111;
-    color: white;
-    text-align: center;
-    padding: 15px;
-}
-.logo{
-width:120px;
-display:block;
-margin:auto;
-}
-.header {
-    text-align: center;      /* centers everything inside header */
-    background-color: #1E90FF;  /* blue background */
-    padding: 30px;           /* adds space around content */
+/* CONTACT */
+.contact input,
+.contact textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
 }
 
-.header h1 {
-    color: white;            /* text color white so it shows on blue */
-    font-size: 48px;         /* make text big */
-    margin-bottom: 20px;     /* space between heading and logo */
-}
-
-.logo {
-    width: 200px;            /* size of the logo */
-    display: block;
-    margin: 0 auto;          /* centers the logo */
+.contact button {
+  padding: 10px 20px;
+  background: #0a2a66;
+  color: white;
+  border: none;
 }
