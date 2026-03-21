@@ -1,110 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tano and Sons Fabricators</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Tano and sons Welding </title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <body>
 
-<header class="header">
-    <img src="tano-.png" alt="Tano Fabricators Logo" class="logo">
-
-</header>
-
-</body>
-
+<!-- NAVBAR -->
 <header>
-    <nav>
-        <h1>Tano & Sons</h1>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+  <h2 class="logo"> WELDING </h2>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
-<section id="home" class="hero">
-    <h2>Quality Metal Fabrication</h2>
-    <p>Strong, reliable, and professional fabrication services.</p>
-    <a href="#contact" class="btn">Request a Quote</a>
+<!-- HERO SECTION -->
+<section class="hero">
+  <h1>Unmatched Capabilities in Structural Steel Fabrication</h1>
+  <p>We deliver precision, quality and innovation across East Africa.</p>
+  <button onclick="scrollToSection('services')">Our Services</button>
 </section>
 
-<section id="about">
-    <h2>About Us</h2>
-    <p>
-      TANO FABRICATORS LTD is a specialist fabrication hub where precision meets power. With expertise in MIG, TIG, and Stick welding, we transform raw metal into durable structures for the construction and manufacturing industries. Every spark in our shop represents a commitment to discipline and structural integrity. From intricate stainless steel components to heavy-duty repairs, our team ensures every joint is seamless, strong, and built to stand the test of time."
-        
-    </p>
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2>Who We Are</h2>
+  <p>
+    We are structural engineers and steel fabricators delivering high-quality 
+    commercial, industrial and public structures with precision and reliability.
+  </p>
 </section>
 
-<section id="services">
-    <h2>Our Services</h2>
-    <div class="service-box">
-        <div>
-            <h3>Structural & Industrial Fabrication</h3>
-            <p>
-Structural Steelwork: Fabrication of beams, columns, trusses, and frameworks for warehouses, bridges, and commercial buildings.
-Tanks & Pressure Vessels: Custom building and repair of fuel tanks, water reservoirs, and chemical storage units.
-Industrial Piping & Ductwork: Design and installation of high-pressure process piping for factories, fuel stations, and processing plants.
-Heavy Machinery Repair: Specialized welding for excavators, tractors, and factory equipment. 
-SparkWeld Fabricators
-SparkWeld Fabricators.
- </p>
-        </div>
-        <div>
-            <h3>Architectural & Custom Metalwork
-</h3>
-            <p> 
-Ornamental Ironwork: Decorative gates, railings, and artistic balustrades for staircases and balconies.
-Bespoke Metal Furniture: Custom-made tables, chairs, and display frames for homes or retail spaces.
-Security Features: High-strength window grills, steel doors, and safety barriers.
-Modern Facades: Decorative metal wall panels, awnings, and custom house numbers. 
-Vercel
-Vercel
- .</p>
-        </div>
-        <div>
-            <h3>Supporting Services
-</h3>
-            <p>Design & CAD Support: Assistance with technical drawings and 3D modeling for custom projects.
-Metal Finishing: Sandblasting, powder coating, painting, and galvanizing to prevent corrosion.
-Precision Cutting: Using CNC plasma, laser, or waterjet cutting for intricate parts. 
-SHEP Engineering
-SHEP Engineering.
- </p>
-        </div>
-    </div>
+<!-- SERVICES -->
+<section id="services" class="services">
+  <h2>Our Services</h2>
+
+  <div class="card">
+    <h3>Steel Fabrication</h3>
+    <p>High-quality structural steel for all projects.</p>
+  </div>
+
+  <div class="card">
+    <h3>Installation</h3>
+    <p>Safe and efficient erection of steel structures.</p>
+  </div>
+
+  <div class="card">
+    <h3>Design & Engineering</h3>
+    <p>Optimized and innovative structural designs.</p>
+  </div>
 </section>
 
-<section id="projects">
-    <h2>Our Projects</h2>
-    <p>Photos of completed projects will appear here.</p>
+<!-- WHY US -->
+<section class="why">
+  <h2>Why Choose Us</h2>
+  <ul>
+    <li>✔ Quality Workmanship</li>
+    <li>✔ Innovation</li>
+    <li>✔ Commitment</li>
+  </ul>
 </section>
 
-<section id="blog">
-    <h2>Blog</h2>
-    <article>
-        <h3>How to Choose a Strong Metal Gate</h3>
-        <p>Tips for selecting durable and secure metal gates.</p>
-    </article>
-</section>
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
 
-<section id="contact">
-    <h2>Contact Us</h2>
-    <p>Phone: +254 720633762</p>
-    <p>Email: tanofabricators@gmail.com</p>
+  <form id="contactForm">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="text" placeholder="Phone">
+    <textarea placeholder="Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
 </section>
-
-<footer>
-    <p>© 2026 Tano and Sons Fabricators</p>
-</footer>
 
 <script src="script.js"></script>
 </body>
