@@ -1,84 +1,67 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+body{
+    background-color:#111;
+    color:white;
+    margin:0;
+    font-family:Arial, sans-serif;
 }
 
-/* NAVBAR */
-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px;
-  background: #0a2a66;
-  color: white;
-}
-
-nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-/* HERO */
-.hero {
-  text-align: center;
-  padding: 100px 20px;
-  background: url('https://images.unsplash.com/photo-1581091215367-59ab6b5c3c64') no-repeat center/cover;
-  color: white;
-}
-
-.hero button {
-  padding: 10px 20px;
-  background: orange;
-  border: none;
-  cursor: pointer;
-}
-
-/* SECTIONS */
-section {
-  padding: 50px;
-  text-align: center;
-}
-
-/* SERVICES */
-.services {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.card {
-  background: #f4f4f4;
-  padding: 20px;
-  margin: 10px;
-  width: 250px;
-}
-
-/* CONTACT */
-.contact input,
-.contact textarea {
-  width: 80%;
-  padding: 10px;
-  margin: 10px;
-}
-
-.contact button {
-  padding: 10px 20px;
-  background: #0a2a66;
-  color: white;
-  border: none;
-}
+/* HEADER */
 .header{
     text-align:center;
-    padding:40px;
+    padding:40px 20px;
+    background-color:#000;
 }
 
-.header h1{
-    font-size:48px;
-    margin-bottom:20px;
-}
-
+/* LOGO */
 .logo{
     width:200px;
     display:block;
     margin:auto;
+}
+
+/* TITLE */
+.header h1{
+    font-size:50px;
+    margin-top:20px;
+    margin-bottom:10px;
+    color:white;
+}
+
+/* NAVIGATION */
+nav{
+    margin-top:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:orange;
+}
+
+/* SECTIONS */
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+/* BUTTONS */
+button{
+    background-color:orange;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:#ff8800;
 }
