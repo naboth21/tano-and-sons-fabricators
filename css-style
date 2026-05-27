@@ -59,6 +59,24 @@ button{
     padding:12px 25px;
     font-size:16px;
     border-radius:5px;
+#contact{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.contact-box{
+    background:#1c1c1c;
+    padding:30px;
+    border-radius:10px;
+    width:300px;
+    margin:auto;
+    box-shadow:0 0 10px rgba(255,255,255,0.1);
+}
+
+.contact-box p{
+    font-size:18px;
+    margin:15px 0;
+}
     cursor:pointer;
 }
 
